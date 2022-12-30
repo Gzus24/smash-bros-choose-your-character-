@@ -1,0 +1,46 @@
+
+/* Box Model Hack */
+*{
+    box-sizing: border-box;
+  }
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  h1, h2{
+    text-align: center;
+  }
+  h1 {
+    font-size: 4rem;
+    color: rgba(135,0,0,1);
+    font-family: 'Times New Roman', Times, serif;
+  }
+  h2 {
+    font-size: 3rem;
+    color: rgba(135,0,0,1);
+    font-family: 'Times New Roman', Times, serif;
+  }
+  section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  img {
+    width: 12%;
+  }
+  main {
+    background-image: url(Melee.webp);
+    background-repeat: no-repeat;
+    background-size:50% ;
+    height: 750px;
+    background-position: right 50% bottom 2%;
+  }
+  video {
+    width: 25%;
+    background: red;
+    display: none;
+  }
+  
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
